@@ -20,6 +20,10 @@ class Person():
 p1 = Person('Joe', 30, 'm')
 print(p1.Name)
 
+# Accessing private varialbe 
+p1._Person__name = 'Henry'
+print(p1.Name)
+
 
 p1.Name = 'Charlie'
 print(p1.Name)
