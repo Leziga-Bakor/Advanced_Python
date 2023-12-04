@@ -12,11 +12,14 @@ class Person():
 
     @Name.setter
     def Name(self, value):
-        if isinstance(str, value):
+        if isinstance(value, str):
             self.__name = value
         else:
-            return 'Name must be of type string'
+            raise TypeError('Name must be of type string')
         
 p1 = Person('Joe', 30, 'm')
 print(p1.Name)
 
+
+p1.Name = 'Charlie'
+print(p1.Name)
