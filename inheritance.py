@@ -38,6 +38,9 @@ class Manager(Employee):
         if emp in self.employees:
             self.employees.remove(emp)
 
+    def print_emp(self):
+        for emp in self.employees:
+            print('-->', emp.fullname())
 
 
 dev_1 = Developer('John', 'Doe', 50000, 'Python')
