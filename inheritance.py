@@ -21,6 +21,22 @@ class Developer(Employee):
         # Employee.__init__(self, firstname, lastname, pay)
         self.prog_lang = prog_lang
 
+class Manager(Employee):
+
+    def __init__(self, firstname, lastname, pay, employees=None):
+        super().__init__(firstname, lastname, pay)
+        if employees is None:
+            self.employees = []
+        else:
+            self.employees = employees
+
+    def add_emp(self, emp):
+        if emp not in self.employees:
+            self.employees.append(emp)
+    
+    def remove_emp(self, emp):
+        if emp in self.employees:
+            self.employees.remove(emp)
 
 
 
