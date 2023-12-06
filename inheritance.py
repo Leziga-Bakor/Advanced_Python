@@ -3,7 +3,7 @@ class Employee:
     def __init__(self, firstname, lastname, pay):
         self.first = firstname
         self.last = lastname
-        self.email = firstname.lower() + '.' + lastname.lower() + '@gmail.com'
+        self.email = firstname.lower() + '.' + lastname.lower() + '@email.com'
         self.pay = pay
 
     def fullname(self):
@@ -52,6 +52,24 @@ print(dev_1.fullname())
 print(dev_2.pay)
 
 
-print(dev_1.pay)
-dev_1.apply_raise()
-print(dev_1.pay)
+# print(dev_1.pay)
+# dev_1.apply_raise()
+# print(dev_1.pay)
+
+
+mgr_1 = Manager('Erik', 'Ten_Hag', 100000, [dev_1])
+
+print(mgr_1.email)
+
+mgr_1.add_emp(dev_2)
+mgr_1.print_emp()
+
+mgr_1.remove_emp(dev_1)
+mgr_1.print_emp()
+
+print(isinstance(mgr_1, Manager))
+print(isinstance(mgr_1, Employee))
+print(isinstance(mgr_1, Developer))
+
+print(issubclass(Manager, Employee))
+print(issubclass(Employee, Developer))
