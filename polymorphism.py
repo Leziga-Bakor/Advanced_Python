@@ -4,4 +4,13 @@ class French:
 
 class Chinese:
     def say_hello(self):
-        print('')
+        print('Ni hou')
+
+def intro(lang):
+    lang.say_hello()
+
+sarthak = French()
+john = Chinese()
+
+intro(sarthak)
+intro(john)
