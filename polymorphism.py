@@ -1,8 +1,13 @@
-class French:
+class Language:
+    def say_hello(self):
+        raise NotImplementedError('Please use say_hello method in child class')
+    
+class French(Language):
+    # pass
     def say_hello(self):
         print('Bonjour')
 
-class Chinese:
+class Chinese(Language):
     def say_hello(self):
         print('Ni hou')
 
