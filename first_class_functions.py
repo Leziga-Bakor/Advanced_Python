@@ -8,7 +8,7 @@ First-Class Citizens (Programming):
 '''
 
 def square(x):
-    return x + x
+    return x * x
 
 f = square(5)
 
@@ -21,3 +21,18 @@ g = square
 
 print(g)
 print(g(5))
+
+'''
+A higher order function accepts a function as an argument or returns a function as a result#
+
+'''
+
+# A map function
+def my_map(func, arg_list):
+    result = []
+    for item in arg_list:
+        result.append(func(item))
+    return result
+
+squares = my_map(square, [1,2,3,4,5])
+print(squares)
