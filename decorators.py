@@ -1,19 +1,13 @@
-def outer_function(msg):
-    def inner_function():
-        print(msg)
-    return inner_function
+def decorator_function(original_function):
+    def wrapper_function():
+        return original_function()
+    return wrapper_function
 
-def decorator_function(message):
-    def wrapper_function()
-        print(message)
-    return wr 
+def display():
+    print('display function ran')
 
-hi_func = outer_function('Hi')
-bye_func = outer_function('Bye')
-
-hi_func()
-bye_func()
-
+decorated_display = decorator_function(display)
+decorated_display()
 '''
 What is a Decorator?
 
