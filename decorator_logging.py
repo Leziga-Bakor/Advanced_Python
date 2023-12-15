@@ -16,3 +16,9 @@ def my_timer(orig_func):
         result = orig_func(*args, **kwargs)
         t2 = time.time() - t1
         print('{} ran in {} sec'.format(orig_func.__name__, t2))
+
+@my_logger
+def display_info(name, age):
+    print('display_info ran with argments {}. {}'.format(name,age))
+
+display_info('john',25)
