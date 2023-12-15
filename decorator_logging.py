@@ -19,9 +19,18 @@ def my_timer(orig_func):
         return result
     return wrapper
 
-@my_logger
+# @my_logger
+# def display_info(name, age):
+#     print('display_info ran with argments {}. {}'.format(name,age))
+
+# display_info('john',25)
+
+import time
+
+@my_timer
 def display_info(name, age):
+    time.sleep(1)
     print('display_info ran with argments {}. {}'.format(name,age))
 
-display_info('john',25)
+display_info('Noah',30)
 
