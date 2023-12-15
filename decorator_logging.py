@@ -25,8 +25,18 @@ def my_timer(orig_func):
 
 # display_info('john',25)
 
-import time
+# import time
 
+# @my_timer
+# def display_info(name, age):
+#     time.sleep(1)
+#     print('display_info ran with argments {}. {}'.format(name,age))
+
+# display_info('Noah',30)
+
+import time 
+
+@my_logger
 @my_timer
 def display_info(name, age):
     time.sleep(1)
@@ -34,3 +44,8 @@ def display_info(name, age):
 
 display_info('Noah',30)
 
+
+'''
+Altternative
+display_info = my_logger(my_timer(display_info))
+'''
