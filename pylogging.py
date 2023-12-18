@@ -23,4 +23,6 @@ print('Add: {} + {} = {}'.format(num_1, num_2, add_result))
 sub_result = subtract(num_1, num_2)
 print('Sub: {} - {} = {}'.format(num_1, num_2, sub_result))
 
+mult_result = multliply(num_1, num_2)
+print('Mul: {} * {} = {}'.format(num_1, num_2, mult_result))
 
