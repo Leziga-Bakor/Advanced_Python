@@ -9,3 +9,7 @@ def subtract(x,y):
 def multliply(x,y):
     """ Multiply Function """
     return x*y 
+
+def divide(x,y):
+    """ Divide Function """
+    return x/y
