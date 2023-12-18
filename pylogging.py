@@ -6,3 +6,6 @@ def subtract(x,y):
     """ Subtract Function """
     return x - y
 
+def multliply(x,y):
+    """ Multiply Function """
+    return x*y 
