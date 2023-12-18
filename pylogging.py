@@ -26,5 +26,5 @@ print('Sub: {} - {} = {}'.format(num_1, num_2, sub_result))
 mul_result = multliply(num_1, num_2)
 print('Mul: {} * {} = {}'.format(num_1, num_2, mul_result))
 
-div_result = multliply(num_1, num_2)
+div_result = divide(num_1, num_2)
 print('div: {} / {} = {}'.format(num_1, num_2, div_result))
