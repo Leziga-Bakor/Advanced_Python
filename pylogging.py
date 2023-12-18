@@ -1,4 +1,4 @@
-
+import logging
 """
 Logging Levels
 
@@ -8,8 +8,10 @@ Logging Levels
 4. ERROR: Due to a more serious problem, the software has not been able to perform some function.
 5. CRITICAL: A serious error, indicating that the program itself may be unalbe to continue running.
 
+default loggin level is Warning: it logs out warnings and higher
 """
 
+logging.basicConfig(level=logging.DEBUG)
 
 def add(x,y):
     """ Add Function """
@@ -31,13 +33,13 @@ num_1 = 10
 num_2 = 5
 
 add_result = add(num_1, num_2)
-print('Add: {} + {} = {}'.format(num_1, num_2, add_result))
+logging.debug('Add: {} + {} = {}'.format(num_1, num_2, add_result))
 
 sub_result = subtract(num_1, num_2)
-print('Sub: {} - {} = {}'.format(num_1, num_2, sub_result))
+logging.debug('Sub: {} - {} = {}'.format(num_1, num_2, sub_result))
 
 mul_result = multliply(num_1, num_2)
-print('Mul: {} * {} = {}'.format(num_1, num_2, mul_result))
+logging.debug('Mul: {} * {} = {}'.format(num_1, num_2, mul_result))
 
 div_result = divide(num_1, num_2)
-print('div: {} / {} = {}'.format(num_1, num_2, div_result))
+logging.debug('div: {} / {} = {}'.format(num_1, num_2, div_result))
