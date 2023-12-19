@@ -1,3 +1,10 @@
+import logging
+
+logging.basicConfig(filename='emp.log',level=logging.INFO,
+                    format='%(levelname)s:%(message)s')
+
+
+
 class Employee:
     """ A sample Employee Class """
 
@@ -5,7 +12,7 @@ class Employee:
         self.first = first
         self.last = last
 
-        print('Created Employee: {} - {}'.format(self.fullname, self.email))
+        logging.info('Created Employee: {} - {}'.format(self.fullname, self.email))
 
     @property
     def email(self):
