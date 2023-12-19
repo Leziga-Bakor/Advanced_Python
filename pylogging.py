@@ -11,7 +11,7 @@ Logging Levels
 default loggin level is Warning: it logs out warnings and higher
 """
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(filename='test.log',level=logging.DEBUG)
 
 def add(x,y):
     """ Add Function """
