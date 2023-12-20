@@ -1,7 +1,7 @@
 import logging
 
 logging.basicConfig(filename='emp.log',level=logging.INFO,
-                    format='%(levelname)s:%(message)s')
+                    format='%(levelname)s:%(name)s:%(message)s')
 
 
 
