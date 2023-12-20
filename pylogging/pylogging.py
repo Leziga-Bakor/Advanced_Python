@@ -13,8 +13,14 @@ Logging Levels
 default loggin level is Warning: it logs out warnings and higher
 """
 
-logging.basicConfig(filename='test.log',level=logging.DEBUG,
-                    format='%(asctime)s:%(levelname)s:%(name)s:%(message)s')
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s')
+file_handler = logging.FileHandler('test.log')
+file_handler.setFormatter(formatter)
+
+logger.addHandler(file_handler)
+
 
 def add(x,y):
     """ Add Function """
@@ -36,13 +42,13 @@ num_1 = 20
 num_2 = 10
 
 add_result = add(num_1, num_2)
-logging.debug('Add: {} + {} = {}'.format(num_1, num_2, add_result))
+logger.debug('Add: {} + {} = {}'.format(num_1, num_2, add_result))
 
 sub_result = subtract(num_1, num_2)
-logging.debug('Sub: {} - {} = {}'.format(num_1, num_2, sub_result))
+logger.debug('Sub: {} - {} = {}'.format(num_1, num_2, sub_result))
 
 mul_result = multliply(num_1, num_2)
-logging.debug('Mul: {} * {} = {}'.format(num_1, num_2, mul_result))
+logger.debug('Mul: {} * {} = {}'.format(num_1, num_2, mul_result))
 
 div_result = divide(num_1, num_2)
-logging.debug('div: {} / {} = {}'.format(num_1, num_2, div_result))
+logger.debug('div: {} / {} = {}'.format(num_1, num_2, div_result))
