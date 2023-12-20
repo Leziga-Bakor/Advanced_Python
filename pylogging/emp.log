@@ -8,3 +8,5 @@ INFO:__main__:Created Employee: John Smith - John.Smith@email.com
 INFO:__main__:Created Employee: Corey Bee - Corey.Bee@email.com
 INFO:pylogging2:Created Employee: John Smith - John.Smith@email.com
 INFO:pylogging2:Created Employee: Corey Bee - Corey.Bee@email.com
+INFO:pylogging2:Created Employee: John Smith - John.Smith@email.com
+INFO:pylogging2:Created Employee: Corey Bee - Corey.Bee@email.com
