@@ -71,3 +71,8 @@ Traceback (most recent call last):
     result = x/y
 ZeroDivisionError: division by zero
 2023-12-21 19:39:14,659:DEBUG:__main__:div: 20 / 0 = None
+2023-12-21 20:01:54,173:ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/workspaces/Advanced_Python/pylogging/pylogging.py", line 45, in divide
+    result = x/y
+ZeroDivisionError: division by zero
