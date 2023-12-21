@@ -39,12 +39,12 @@ def divide(x,y):
     try:
         result = x/y
     except ZeroDivisionError:
-        logger.error('Tried to divide by zero')
+        logger.exception('Tried to divide by zero')
     else:
-        return x/y
+        return result
 
 num_1 = 20
-num_2 = 10
+num_2 = 0
 
 add_result = add(num_1, num_2)
 logger.debug('Add: {} + {} = {}'.format(num_1, num_2, add_result))
