@@ -19,7 +19,10 @@ formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(name)s:%(message)s')
 file_handler = logging.FileHandler('test.log')
 file_handler.setFormatter(formatter)
 
+stream_handler = logging.StreamHandler()
+
 logger.addHandler(file_handler)
+logger.addHandler(stream_handler)
 
 
 def add(x,y):
