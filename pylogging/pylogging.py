@@ -36,7 +36,12 @@ def multliply(x,y):
 
 def divide(x,y):
     """ Divide Function """
-    return x/y
+    try:
+        result = x/y
+    except ZeroDivisionError:
+        logger.error('Tried to divide by zero')
+    else:
+        return x/y
 
 num_1 = 20
 num_2 = 10
