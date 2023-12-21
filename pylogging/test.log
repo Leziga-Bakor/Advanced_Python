@@ -26,3 +26,48 @@ DEBUG:root:div: 20 / 10 = 2.0
 2023-12-20 21:57:06,295:DEBUG:__main__:Sub: 20 - 10 = 10
 2023-12-20 21:57:06,295:DEBUG:__main__:Mul: 20 * 10 = 200
 2023-12-20 21:57:06,295:DEBUG:__main__:div: 20 / 10 = 2.0
+2023-12-21 19:25:08,073:DEBUG:__main__:Add: 20 + 10 = 30
+2023-12-21 19:25:08,075:DEBUG:__main__:Sub: 20 - 10 = 10
+2023-12-21 19:25:08,075:DEBUG:__main__:Mul: 20 * 10 = 200
+2023-12-21 19:25:08,075:DEBUG:__main__:div: 20 / 10 = 2.0
+2023-12-21 19:26:02,067:DEBUG:__main__:Add: 20 + 0 = 20
+2023-12-21 19:26:02,067:DEBUG:__main__:Sub: 20 - 0 = 20
+2023-12-21 19:26:02,067:DEBUG:__main__:Mul: 20 * 0 = 0
+2023-12-21 19:26:02,067:ERROR:__main__:Tried to divide by zero
+2023-12-21 19:26:02,067:DEBUG:__main__:div: 20 / 0 = None
+2023-12-21 19:27:51,124:DEBUG:__main__:Add: 20 + 0 = 20
+2023-12-21 19:27:51,124:DEBUG:__main__:Sub: 20 - 0 = 20
+2023-12-21 19:27:51,124:DEBUG:__main__:Mul: 20 * 0 = 0
+2023-12-21 19:27:51,124:ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/workspaces/Advanced_Python/pylogging/pylogging.py", line 40, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2023-12-21 19:27:51,125:DEBUG:__main__:div: 20 / 0 = None
+2023-12-21 19:28:41,432:DEBUG:__main__:Add: 20 + 0 = 20
+2023-12-21 19:28:41,432:DEBUG:__main__:Sub: 20 - 0 = 20
+2023-12-21 19:28:41,432:DEBUG:__main__:Mul: 20 * 0 = 0
+2023-12-21 19:28:41,432:ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/workspaces/Advanced_Python/pylogging/pylogging.py", line 40, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2023-12-21 19:28:41,433:DEBUG:__main__:div: 20 / 0 = None
+2023-12-21 19:28:53,505:DEBUG:__main__:Add: 20 + 0 = 20
+2023-12-21 19:28:53,505:DEBUG:__main__:Sub: 20 - 0 = 20
+2023-12-21 19:28:53,505:DEBUG:__main__:Mul: 20 * 0 = 0
+2023-12-21 19:28:53,505:ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/workspaces/Advanced_Python/pylogging/pylogging.py", line 40, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2023-12-21 19:28:53,506:DEBUG:__main__:div: 20 / 0 = None
+2023-12-21 19:39:14,658:DEBUG:__main__:Add: 20 + 0 = 20
+2023-12-21 19:39:14,658:DEBUG:__main__:Sub: 20 - 0 = 20
+2023-12-21 19:39:14,658:DEBUG:__main__:Mul: 20 * 0 = 0
+2023-12-21 19:39:14,659:ERROR:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/workspaces/Advanced_Python/pylogging/pylogging.py", line 44, in divide
+    result = x/y
+ZeroDivisionError: division by zero
+2023-12-21 19:39:14,659:DEBUG:__main__:div: 20 / 0 = None
