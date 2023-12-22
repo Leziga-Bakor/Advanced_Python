@@ -3,7 +3,7 @@ try:
 except Exception:
     print(('Sorry. file does not exist'))
 # else:
-#     pass
+#     print('this session handled what code does if try block doesnt catch error)
 # finally:
 #     pass
     
