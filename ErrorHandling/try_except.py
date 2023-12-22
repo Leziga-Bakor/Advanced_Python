@@ -1,8 +1,8 @@
 try:
-    pass
+    f = open('test_file.txt')
 except Exception:
-    pass
-else:
-    pass
-finally:
-    pass
+    print(('Sorry. file does not exist'))
+# else:
+#     pass
+# finally:
+#     pass
