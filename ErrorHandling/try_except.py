@@ -1,5 +1,7 @@
 try:
     f = open('test_file.txt')
+except FileNotFoundError as e:
+    print(e)
 except Exception:
     print(('Sorry. file does not exist'))
 else:
