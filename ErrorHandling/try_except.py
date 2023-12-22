@@ -6,3 +6,7 @@ except Exception:
 #     pass
 # finally:
 #     pass
+    
+'''
+More general exception should be last
+'''
