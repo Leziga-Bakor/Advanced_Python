@@ -24,6 +24,7 @@ else:
 
 '''
 else after a loop can be seen as no break. It executes only when the loop dosent meet a break statement
+
 '''
 def find_index(to_search, target):
     for i, value in enumerate(to_search):
