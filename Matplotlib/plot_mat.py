@@ -21,8 +21,18 @@ plt.show()
 # NB: line plot is the default plot for matplotlib.pyplot
 
 '''
+
+
+'''
 x = ['C++', 'C#', 'Python', 'Java', 'Go']
 y = [20, 50, 140, 1, 45]
 
 plt.bar(x,y, color = 'r', align='edge', width=.8, edgecolor ='g', lw =3)
+plt.show()
+
+'''
+
+# Histogram
+ages = np.random.normal(20,1.5,1000)
+plt.hist(ages)
 plt.show()
