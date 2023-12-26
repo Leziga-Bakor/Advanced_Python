@@ -32,10 +32,20 @@ plt.show()
 
 '''
 
+'''
 # Histogram
 ages = np.random.normal(20,1.5,1000)
 plt.hist(ages, bins=[ages.min(), 18,21,ages.max()])
 plt.show()
 
 plt.hist(ages, bins=20,cumulative=True)
+plt.show()
+
+'''
+
+# pie chart
+langs=['Python','C++','Java','C#','Go']
+votes=[50,24,14,6,17]
+
+plt.pie(votes,labels=langs)
 plt.show()
