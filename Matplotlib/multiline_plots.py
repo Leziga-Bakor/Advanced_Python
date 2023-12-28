@@ -9,4 +9,5 @@ plt.plot(stock_a, label='company1')
 plt.plot(stock_b, label='Company2')
 plt.plot(stock_c, label='Company3')
 
+plt.legend(loc='upper center')
 plt.show()
