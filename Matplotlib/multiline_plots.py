@@ -11,3 +11,11 @@ plt.plot(stock_c, label='Company3')
 
 plt.legend(loc='upper center')
 plt.show()
+
+
+votes = [10,2,5,16,22]
+people = ['A', 'B', 'C', 'D', 'E']
+
+plt.pie(votes, labels=None)
+plt.legend(labels=people)
+plt.show()
