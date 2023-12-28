@@ -1,5 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import style
+
+style.use('dark_background')
 
 stock_a = [100,102,99,101,101,100,102]
 stock_b = [90,95,102,104,105,103,109]
