@@ -17,6 +17,8 @@ axs[1,0].set_title('Random Function')
 
 axs[1,1].plot(x, np.tan(x))
 axs[1,1].set_title('Tan Function')
+axs[1,1].set_xlabel('TEST')
 
+fig.suptitle('Four Plot')
 plt.show()
 
