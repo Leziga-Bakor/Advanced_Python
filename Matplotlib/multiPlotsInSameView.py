@@ -21,6 +21,7 @@ axs[1,1].set_xlabel('TEST')
 
 fig.suptitle('Four Plot')
 
+plt.tight_layout # So plots dont overlap
 
-plt.savefig('fourplots.png')
+plt.savefig('fourplots.png', dpi =300, transparent=True)
 
