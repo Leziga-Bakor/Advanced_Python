@@ -20,5 +20,7 @@ axs[1,1].set_title('Tan Function')
 axs[1,1].set_xlabel('TEST')
 
 fig.suptitle('Four Plot')
-plt.show()
+
+
+plt.savefig('fourplots.png')
 
