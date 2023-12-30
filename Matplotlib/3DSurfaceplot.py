@@ -11,7 +11,8 @@ X,Y = np.meshgrid(x,y)
 Z = np.sin(X) + np.cos(Y)
 
 
-ax.plot_surface(X,Y,Z)
+ax.plot_surface(X,Y,Z, cmap='Spectral')
 ax.set_title("3D Surface Plot")
 
+ax.view_init(azim=0, elev=90)
 plt.show()
