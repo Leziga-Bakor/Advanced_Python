@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib import style
 import random
 
 heads_tails = [0,0]
