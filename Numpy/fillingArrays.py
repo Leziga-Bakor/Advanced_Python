@@ -11,3 +11,10 @@ a=np.ones((10,5,2))
 
 a = np.empty((5,5,5))
 print(a)
+
+# Generate sequence
+x_value = np.arange(0, 1000, 5)
+print(x_value)
+
+x_values = np.linspace(0,1000,2)
+print(x_values)
