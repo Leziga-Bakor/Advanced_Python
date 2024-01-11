@@ -18,3 +18,12 @@ print(x_value)
 
 x_values = np.linspace(0,1000,2)
 print(x_values)
+
+# Special values
+print(np.nan)
+print(np.inf) #Infinity
+
+# check for values
+
+print(np.isnan(np.nan))
+print(np.isinf(np.inf))
