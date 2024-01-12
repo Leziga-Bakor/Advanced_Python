@@ -15,3 +15,5 @@ print(a.reshape((2,2,5)))
 a.resize((10,2))
 print(a)
 
+print(a.flatten()) #gives one dimension of array
+
