@@ -18,3 +18,4 @@ print(a)
 print(a.flatten()) #gives one dimension of array
 print(a.ravel()) # returns a flattened version of an array'
 
+print(a.transpose()) # a.T or a.swapaxes(0,1)=you can specifiy axis to swap
