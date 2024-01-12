@@ -8,3 +8,5 @@ a = np.array([
 ])
 
 print(a.shape)
+print(a.reshape((5,4)))
+print(a.reshape((20)))
