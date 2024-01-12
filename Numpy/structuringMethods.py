@@ -11,3 +11,7 @@ print(a.shape)
 print(a.reshape((5,4)))
 print(a.reshape((20)))
 print(a.reshape((2,2,5)))
+
+a.resize((10,2))
+print(a)
+
