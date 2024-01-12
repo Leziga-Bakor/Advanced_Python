@@ -16,4 +16,5 @@ a.resize((10,2))
 print(a)
 
 print(a.flatten()) #gives one dimension of array
+print(a.ravel()) # returns a flattened version of an array'
 
