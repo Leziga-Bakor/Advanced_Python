@@ -17,3 +17,9 @@ print(a)
 
 a = np.stack((a1,a2))
 print(a)
+
+a = np.vstack((a1,a2))
+print(a)
+
+a = np.hstack((a1,a2))
+print(a)
