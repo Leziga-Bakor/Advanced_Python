@@ -11,3 +11,6 @@ a2 =(
 )
 
 a = np.concatenate((a1,a2))
+print(a)
+a = np.concatenate((a1,a2),axis=1)
+print(a)
