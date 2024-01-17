@@ -23,3 +23,5 @@ import numpy as np
 # np.savetxt('myarray.csv', a, delimiter = ",")
 a = np.loadtxt('myarray.csv', delimiter=',')
 print(a)
+
+# Numpy for now
