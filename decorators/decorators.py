@@ -33,5 +33,4 @@ A decorator is a function that takes another function as an argument. It can per
 @decorator_class
 def display_info(name, age):
     print('display_info ran with argments {}. {}'.format(name,age))
-
 display_info('john',25)
