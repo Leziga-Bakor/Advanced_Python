@@ -3,7 +3,6 @@ class Myclass():
         '''
         This is an implementation of private variable to ensure that the my_methon in Myclass is not over ridden 
         by my_class method in Subclass
-        
         '''
         print(self.__my_method())
 
