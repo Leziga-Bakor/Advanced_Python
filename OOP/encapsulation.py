@@ -24,6 +24,5 @@ print(p1.Name)
 p1._Person__name = 'Henry'
 print(p1.Name)
 
-
 p1.Name = 'Charlie'
 print(p1.Name)
