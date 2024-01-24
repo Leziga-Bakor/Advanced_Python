@@ -7,3 +7,4 @@ print(y) # This should print 8
 num = 10
 
 print(y) # This should still print 8 even though num now points to 10
+# The files mirrows how variables reference objects in python
