@@ -11,4 +11,4 @@ def outer_func(msg):
 my_func = outer_func('Hi')
 my_func2 = outer_func('Hello')
 my_func()
-my_func()
+my_func2()
