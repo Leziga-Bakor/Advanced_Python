@@ -13,4 +13,5 @@ finally:
     
 '''
 More general exception should be last
+Experessions can be arranged in sequence one after the other. The first ones being the most specific
 '''
