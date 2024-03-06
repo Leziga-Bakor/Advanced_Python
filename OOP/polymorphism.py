@@ -3,7 +3,6 @@ class Language:
         raise NotImplementedError('Please use say_hello method in child class')
     
 class French(Language):
-    # pass
     def say_hello(self):
         print('Bonjour')
 
