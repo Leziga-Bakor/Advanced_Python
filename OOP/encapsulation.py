@@ -20,7 +20,7 @@ class Person():
 p1 = Person('Joe', 30, 'm')
 print(p1.Name)
 
-# Accessing private varialbe 
+# Accessing private variable 
 p1._Person__name = 'Henry'
 print(p1.Name)
 
